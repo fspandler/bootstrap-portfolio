@@ -3,3 +3,8 @@
 @-o-viewport      { width: device-width; }
 @viewport         { width: device-width; }
 /*IE 10 Bug fix END*/
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
