@@ -13,3 +13,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
 }
+
+.jumbotron {
+  background-image: url(http://i.imgur.com/IMGsrBr.jpg);
+}
