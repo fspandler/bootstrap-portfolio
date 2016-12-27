@@ -4,6 +4,10 @@
 @viewport         { width: device-width; }
 /*IE 10 Bug fix END*/
 
+.tCenter {
+  text-align: center;
+}
+
 body {
   padding-top: 50px;
   padding-bottom: 20px;
@@ -16,4 +20,10 @@ body {
 
 .jumbotron {
   background-image: url(http://i.imgur.com/IMGsrBr.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+p {
+  font-size: 150%;
 }
