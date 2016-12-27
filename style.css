@@ -1,0 +1,5 @@
+/*IE 10 Bug fix START*/
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
+/*IE 10 Bug fix END*/
