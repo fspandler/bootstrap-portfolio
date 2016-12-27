@@ -1,2 +1,8 @@
 # bootstrap-portfolio
-A portfolio made with bootstrap.  I am using bootstrap to cut down on the time it takes to get the site live, since I am not getting directly paid to make my own site.
+
+This is my portfolio remade with bootstrap.
+
+Currently (12/27/2016) my portfolio does not showcase my recent work.
+
+What I would like do is create a business oriented portfolio page to drive
+web design sales.
