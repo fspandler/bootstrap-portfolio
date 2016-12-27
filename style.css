@@ -3,7 +3,9 @@
 @-o-viewport      { width: device-width; }
 @viewport         { width: device-width; }
 /*IE 10 Bug fix END*/
-
+img {
+  max-width: 80vw;
+}
 .tCenter {
   text-align: center;
 }
@@ -26,7 +28,7 @@ body {
 }
 
 .jumbotron {
-  background-image: url(http://i.imgur.com/IMGsrBr.jpg);
+  background-image: url(images/wave.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -36,7 +38,14 @@ p {
 }
 
 #marketing {
-  background-image: url(http://i.imgur.com/Hbrxvhc.png);
+  background-image: url(images/m.png);
   background-repeat: repeat;
   background-attachment: fixed;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 850px), {
+  .mHide {
+    display: none;
+  }
 }
