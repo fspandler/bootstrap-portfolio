@@ -8,6 +8,13 @@
   text-align: center;
 }
 
+.dark {
+  background-color: rgb(10, 10, 10);
+  color: white;
+}
+.bootMargin {
+  margin-top: 30px;
+}
 body {
   padding-top: 50px;
   padding-bottom: 20px;
@@ -26,4 +33,10 @@ body {
 
 p {
   font-size: 150%;
+}
+
+#marketing {
+  background-image: url(http://i.imgur.com/Hbrxvhc.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
