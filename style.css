@@ -69,10 +69,14 @@ p {
 #footer {
 
 }
-@media (max-width: 850px) {
-  .mHide {
-    display: none;
+@media (max-width: 767px) {
+  #nav {
+    position: static;
+    margin-bottom: 0px;
   }
+ body {
+   padding-top: 0;
+ }
 }
 
 @media (max-width: 335px) {
