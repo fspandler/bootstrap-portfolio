@@ -4,7 +4,7 @@
 @viewport         { width: device-width; }
 /*IE 10 Bug fix END*/
 img {
-  max-width: 80vw;
+  max-width: 100%;
 }
 .tCenter {
   text-align: center;
@@ -58,8 +58,25 @@ p {
 #port {
   padding-bottom: 30px;
 }
-@media (max-width: 850px), {
+.addy {
+  font-size: 20px;
+}
+#contact {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#footer {
+
+}
+@media (max-width: 850px) {
   .mHide {
     display: none;
+  }
+}
+
+@media (max-width: 335px) {
+  a {
+    font-size: 20px;
   }
 }
