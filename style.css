@@ -9,7 +9,10 @@ img {
 .tCenter {
   text-align: center;
 }
-
+#toLeft{
+  float: left;
+  margin-left: 5px;
+}
 .dark {
   background-color: rgb(10, 10, 10);
   color: white;
