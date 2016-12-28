@@ -24,16 +24,24 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
-
+.concrete {
+  background-image: url(images/c.png);
+  background-repeat: repeat;
+}
 .high {
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
 }
-
-.jumbotron {
+#about {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+}
+body .jumbotron {
   background-image: url(images/wave.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  margin-bottom: 0px;
 }
 
 p {
@@ -45,8 +53,11 @@ p {
   background-repeat: repeat;
   background-attachment: fixed;
   padding-bottom: 30px;
+  margin-top: 0;
 }
-
+#port {
+  padding-bottom: 30px;
+}
 @media (max-width: 850px), {
   .mHide {
     display: none;
